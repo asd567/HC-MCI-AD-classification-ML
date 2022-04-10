@@ -8,7 +8,7 @@
 2. T1-sMRI: the gray matter volume, white matter vollume.
 3. fdg-PET: the cerebral metabolism of glucose in every ercebral region.
 4. DWI: FA, MD, RD
-5. Altas: AAL2
+5. Atlas: AAL2
 6. Proprecessing tools: FreeSurfer https://surfer.nmr.mgh.harvard.edu/
 
 ## The project flow
