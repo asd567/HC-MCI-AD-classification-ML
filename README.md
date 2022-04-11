@@ -1,6 +1,6 @@
 # HC-MCI-AD-classification-ML
 ## Note
-1. This project are using five machine learning models to classificatiion the Health Control (HC), Mild Cognitive Imperior (MCI), and Alzheimer's Disease (AD). (In fact, HC vs. MCI, HC vs. AD, MCI vs. AD, HC vs. MCI vs. AD)
+1. This project are using five machine learning models to classificatiion the Health Control (HC), Mild Cognitive Impairment (MCI), and Alzheimer's Disease (AD). (In fact, HC vs. MCI, HC vs. AD, MCI vs. AD, HC vs. MCI vs. AD)
 2. The following five models are used in this classification task: KNN, SVM, Random Forest, Decesion Tree, Logistic Regression.
 
 # Data proprecessing
@@ -10,6 +10,7 @@
 4. DWI: FA, MD, RD
 5. Atlas: AAL2
 6. Proprecessing tools: FreeSurfer https://surfer.nmr.mgh.harvard.edu/
+7. Feature Selection: Pearsonr's Correlation, LASSO.
 
 ## The project flow
 1. Split the trainging set and testing set.
@@ -21,6 +22,7 @@
 
 
 # Folder & File description
+
 
 
 # Contributors
