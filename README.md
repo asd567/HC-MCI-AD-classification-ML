@@ -20,9 +20,21 @@
 5. Using testing set to test the model.
 6. Model evalutation: ROC, F1-score, TP, FN, including two-classification and three-classification.
 
+The workflow as plot:
+![IMG_8860](https://user-images.githubusercontent.com/34188169/163707021-241ac552-fa61-4dc4-87f2-e9bf13693adc.JPG)
+
 
 # Folder & File description
+Code folder save the core code, if someone want to use, please build the file like this:
+|twoClassificier
+|--HC vs MCI
+|--|--raw.csv
 
+Firstly, run `FeatureProject.py`, this file do the pre-reduce about data.
+Secondly, run `shanlian.py`, this file selected the test datasets feature.
 
-
+# Question
+Why devide the training set and testing set firstly?
+The testing set should not have contribute information in training set normalization. The correct method is that spliting the datasets before the normalization.
 # Contributors
+Thanks a lot to PangYu, a master in CS.
