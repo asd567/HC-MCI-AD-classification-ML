@@ -26,9 +26,13 @@ The workflow as plot:
 
 # Folder & File description
 Code folder save the core code, if someone want to use, please build the file like this:
+```
 |twoClassificier
+
 |--HC vs MCI
+
 |--|--raw.csv
+```
 
 Firstly, run `FeatureProject.py`, this file do the pre-reduce about data.
 Secondly, run `shanlian.py`, this file selected the test datasets feature.
