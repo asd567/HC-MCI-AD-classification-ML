@@ -5,11 +5,11 @@
 
 # Data proprecessing
 1. Data modality: T1-sMRI, fdg-PET, DWI.
-2. T1-sMRI: the gray matter volume, white matter vollume.
+2. T1-sMRI: White matter vollume, gray matter volume and gray matter density. 
 3. fdg-PET: the cerebral metabolism of glucose in every ercebral region.
 4. DWI: FA, MD, RD
 5. Atlas: AAL2
-6. Proprecessing tools: FreeSurfer https://surfer.nmr.mgh.harvard.edu/
+6. Proprecessing tools: FreeSurfer https://surfer.nmr.mgh.harvard.edu/ , clincia: https://aramislab.paris.inria.fr/clinica/docs/public/latest/
 7. Feature Selection: Pearsonr's Correlation, LASSO.
 
 ## The project flow
