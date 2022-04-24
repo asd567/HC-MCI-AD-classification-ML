@@ -41,4 +41,4 @@ Secondly, run `shanlian.py`, this file selected the test datasets feature.
 Why devide the training set and testing set firstly?
 The testing set should not have contribute information in training set normalization. The correct method is that spliting the datasets before the normalization.
 # Contributors
-Thanks a lot to PangYu, a master in CS.
+Yu Pang, Central china normal university, Wuhan, Hubei, China. Finished the RF&DT machine learning algorithm and three classifier ROC cure.
